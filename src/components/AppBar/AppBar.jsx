@@ -6,6 +6,7 @@ export const AppBar = () => {
   return (
     <header className={css.wrapper}>
       <section className={css.section}>
+        <span className={css.logo}>IPlanner</span>
         <h2 className={css.title}>Tasks</h2>
         <TaskCounter />
       </section>
